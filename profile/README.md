@@ -7,6 +7,8 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Typscript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 
 ## 📜 **Overview**
 An innovative educational platform designed to revolutionize the way people learn. It offers personalized learning experiences tailored to individual needs, making education more engaging and effective.
@@ -16,17 +18,18 @@ A platform that allows learners to maximize the existing Artificial Intelligence
 <details>
 <summary><b>Table of Contents</b></summary>
 
-1. [About the Project](/README.md)
+1. [About the Project](#overview)
 
-   - [Built With](/README.md#technology-stack)
-   - [Resources Used](/README.md#resources-used)
+   - [Resources Used](#resources-used)
 
-2. [Getting Started](/README.md#getting-started-📌)
+2. [Getting Started](#-getting-started)
 
-   - [Prerequisites](/README.md#prerequisites)
-   - [Installation](/README.md#installation)
+   - [Prerequisites](#-prerequisites)
+   - [Installation](#-installation-and-Usage)
 
-3. [License](/README.md#license-✍)
+3. [Features](#-features)
+
+4. [Contributors](#-contributors)
 </details>
 
 ####  **Resources Used**
