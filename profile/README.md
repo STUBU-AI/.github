@@ -1,13 +1,24 @@
-## Welcome to STUBU.AI! 👋
+# Welcome to STUBU.AI! 👋
+An innovative educational platform designed to revolutionize the way people learn. It offers personalized learning experiences tailored to individual needs, making education more engaging and effective.
 
-### Overview
+## Overview
+A platform that allows learners to maximize the existing Artificial Intelligence (AI) through the provision and generation of learning materials; allowing users to have a personalized learning experience based on their goals and interests.
 
-### Installation and Usage
 
-### Features
+## Installation and Usage
 
-### Contributors
+## Features
 
+## Contributors
+
+- [**Martin Atole**](https://github.com/CS-Martin)
+- [**Angeline Basbas**](https://github.com/StrayMarimo)
+- [**]
+- [**Jiankarlo Belarmino**](https://github.com/CSjianbel)
+- [**Albert Perez**](https://github.com/bibookss)
+
+
+## Repository Guides
 
 <!--
 
