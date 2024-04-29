@@ -55,6 +55,10 @@ Before running the application, make sure to install the following:
 
 	Download through their official [docs](https://www.mongodb.com/try/download/community).
 
+2. **Python 3**
+
+	Download through their official [website](https://www.python.org/downloads/).
+
 ## ⚙ **Installation and Usage**
 
 ### **Presentation Layer/Frontend:**
@@ -63,7 +67,9 @@ Before running the application, make sure to install the following:
 ```bash
 # Clone this repository
 git clone https://github.com/STUBU-AI/STUBU-CLIENT.git
-Upon cloning, navigate to the repo.
+
+# Upon cloning, navigate to the repo.
+cd STUBU-CLIENT
 
 # Install NPM packages
 npm install
@@ -81,12 +87,17 @@ npm run dev
 
 ```bash
 # Clone this repository
-git clone  https://github.com/STUBU-AI/STUBU-API.git
+git clone https://github.com/STUBU-AI/STUBU-API.git
+
 # Upon cloning, navigate to the repo.
-# Install NVM packages
+cd STUBU-API
+
+# Install and use specified node version
 nvm install
+
 # Install NPM packages
 npm install
+
 # Create a copy of sample .env file
 cp .sample.env .env
  ```
@@ -96,8 +107,10 @@ cp .sample.env .env
 ```bash
 # Run the server
 npm start
+
 # Restarts the server on any changes made in the project 
 npm run dev
+
 # Run the unit test
 npm run test
 ```
@@ -106,16 +119,27 @@ npm run test
 #### 1. **Installation:**
 
 ```bash
+# Clone this repository
+git clone https://github.com/STUBU-AI/RAG-LLM.git
+
+# Upon cloning, navigate to the repo.
+cd RAG-LLM
+
 # Go to OpenAI and create a new API key. Create a .env file and add your OPENAI_API_KEY.
 sudo pip3 install -r requirements.txt
 ```
 
 #### 2. **Usage:**
 ```bash
-#Locally
+# Locally
+
+# Open a terminal, navigate to repo and run:
 chroma run
+
+# Open another terminal, navigate to repo and run:
 uvicorn app.app:app --port 8001
-#Using Docker
+
+# Using Docker
 docker-compose up -d
 ```
 
@@ -132,7 +156,7 @@ docker-compose up -d
 | 7      | Upvote Course                | Allowing users to express their approval or appreciation for public courses by voting them up. |
 | 8      | Quiz Generation              | The process of generating quizzes or assessments for courses on the platform. |
 | 9      | Course Assessment            | Assessments designed to evaluate a learner's understanding and knowledge of course material. |
-| 10     | Material Submissing          | The process of submitting materials or resources for a course.          |
+| 10     | Material Submission          | The process of submitting materials or resources for a course.          |
 
 
 ## 💪 **Contributors**
@@ -153,3 +177,4 @@ We greatly appreciate contributions to this project. Special thanks to the follo
 #### **Mentors**
 - Kevin Vega
 - Jobb Rodriguez
+
