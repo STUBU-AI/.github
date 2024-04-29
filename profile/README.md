@@ -37,7 +37,7 @@ A platform that allows learners to maximize the existing Artificial Intelligence
 [![Skills](https://skillicons.dev/icons?i=git,github,figma,vite,vscode)](https://skillicons.dev)
 
 
-## ⚙ **Installation and Usage**
+## ⚙ **Setting Up**
 
 #### Prerequisites
 
@@ -51,16 +51,73 @@ Before running the application, make sure to install the following:
    npm install npm@latest -g
    ```
 
-2. **Clone the following repository**
+2. **Mongo DB**
 
-   ```bash
-   git clone https://github.com/STUBU-AI/STUBU-CLIENT.git
-   git clone https://github.com/STUBU-AI/STUBU-API.git
-   ```
+	Download through their official [docs](https://www.mongodb.com/try/download/community).
 
-   Upon cloning, navigate to the repo.
+## ⚙ **Installation and Usage**
 
-3. 
+### **Presentation Layer/Frontend:**
+#### 1. **Installation**
+
+```bash
+# Clone this repository
+git clone https://github.com/STUBU-AI/STUBU-CLIENT.git
+Upon cloning, navigate to the repo.
+
+# Install NPM packages
+npm install
+ ```
+ 
+#### 2. Usage:
+
+```bash
+# Start the application
+npm run dev
+ ```
+
+### **API:**
+#### 1. **Installation:**
+
+```bash
+# Clone this repository
+git clone  https://github.com/STUBU-AI/STUBU-API.git
+# Upon cloning, navigate to the repo.
+# Install NVM packages
+nvm install
+# Install NPM packages
+npm install
+# Create a copy of sample .env file
+cp .sample.env .env
+ ```
+
+#### 2. **Usage:**
+
+```bash
+# Run the server
+npm start
+# Restarts the server on any changes made in the project 
+npm run dev
+# Run the unit test
+npm run test
+```
+
+### **RAG Service**
+#### 1. **Installation:**
+
+```bash
+# Go to OpenAI and create a new API key. Create a .env file and add your OPENAI_API_KEY.
+pip3 install -r requirements.txt
+```
+
+#### 2. **Usage:**
+```bash
+#Locally
+chroma run
+uvicorn app.app:app --port 8001
+#Using Docker
+docker-compose up -d
+```
 
 ## ✨ **Features**
 
