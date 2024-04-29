@@ -1,4 +1,4 @@
-<img src="../assets/stubu.png" alt="STUBU" width="300" />
+<img src="https://github.com/STUBU-AI/.github/assets/stubu.png" alt="STUBU" width="300" />
 
 [Documentation]() • [Report a Bug](https://github.com/STUBU-AI/STUBU-CLIENT/issues)
 
