@@ -59,7 +59,6 @@ Before running the application, make sure to install the following:
 
 # Install NPM packages
 	npm install
-	That's it! You can now start by running the application.
  ```
 #### Usage:
 ```bash
