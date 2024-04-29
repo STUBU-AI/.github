@@ -107,7 +107,7 @@ npm run test
 
 ```bash
 # Go to OpenAI and create a new API key. Create a .env file and add your OPENAI_API_KEY.
-pip3 install -r requirements.txt
+sudo pip3 install -r requirements.txt
 ```
 
 #### 2. **Usage:**
